@@ -13,3 +13,8 @@ A React Three Fiber boilerplate that includes:
 - Tailwind CSS
 - Animated model sample
 - Textured static model
+
+## Running
+    npm i
+
+    npm run dev
