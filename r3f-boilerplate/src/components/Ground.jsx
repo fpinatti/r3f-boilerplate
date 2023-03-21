@@ -1,11 +1,11 @@
-import { useTexture } from "@react-three/drei"
+import { useTexture, MeshReflectorMaterial } from "@react-three/drei"
 import * as THREE from 'three'
 
-const Ground = () => {
+const Ground = ({position}) => {
 
 	return (
-		<mesh rotation={ [Math.PI * -.5, 0, 0] } receiveShadow>
-			<planeGeometry args={ [100, 100, 100, 100] } />
+		<mesh position={ position } receiveShadow>
+			<cylinderGeometry args={ [100, 100, 2]} />
 			<meshStandardMaterial 
 				color={ 'red' }
 			/>
