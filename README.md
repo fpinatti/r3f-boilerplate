@@ -7,6 +7,7 @@ A React Three Fiber boilerplate that includes:
 - R3F perf
 - Nice Color Palettes
 - THREE
+- Postprocessing
 - Leva
 - Drei Helpers
 - GSAP

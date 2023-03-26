@@ -5,6 +5,7 @@ import Ground from './components/Ground'
 import AnimatedModel from './components/AnimatedModel'
 import TextureModel from './components/TextureModel'
 import PerformanceMonitor from './components/PerformanceMonitor'
+import EffectsRender from './components/EffectsRender'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
 			>
 				<Camera />
 				<Lights />
+				<EffectsRender />
 				<PerformanceMonitor />
 				<AnimatedModel position={[-8, 0, 60]} />
 				<TextureModel position={[3, 5, 45]} />
